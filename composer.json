@@ -1,9 +1,5 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
-    "homepage": "http://cakephp.org",
-    "type": "project",
-    "license": "MIT",
+    "name": "kanonji/cakephp3_testing",
     "require": {
         "php": ">=5.4.16",
         "cakephp/cakephp": "~3.1",
@@ -14,10 +10,10 @@
     "require-dev": {
         "psy/psysh": "@stable",
         "cakephp/debug_kit": "~3.2",
-        "cakephp/bake": "~1.1"
+        "cakephp/bake": "~1.1",
+        "phpunit/phpunit": "~5.1"
     },
     "suggest": {
-        "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
         "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP."
     },
     "autoload": {
